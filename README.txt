@@ -1,8 +1,8 @@
-**Database Sentinel: Anomaly Detection for SQL Transactions**
+__Database Sentinel: Anomaly Detection for SQL Transactions__
 A real-time monitoring system that integrates MySQL transaction logging with machine learning to identify anomalous database activity.
 Uses **Isolation Forest** algorithm to analyze behavioral fingerprints based on execution time and data impact.
 
-**Configuration and Usage**
+__Configuration and Usage__
 1. Define database credentials in the `db_config` dictionary
 2. you may modify `contamination`, running time, rows + speed + number of normal and anomaly rows
 3. Run script to initializes the schema, populates the training set
